@@ -1,0 +1,14 @@
+{
+    "name": "Hackday",
+    "version": "1.0",
+    "description": "Changing the World...for the better!",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["hello-world.js"],
+        "persistent": true
+    },
+    "page_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["declarativeContent", "storage","https://api.goclimateneutral.org/*"]
+  }
